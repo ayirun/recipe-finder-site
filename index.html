@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <header>
+    <h1>Recipe Finder</h1>
+</header>
+
+    <main>
+        <div class="search-section">
+            <input type="text" id="ingredients-input" placeholder="Enter ingredients (e.g., chicken, rice)">
+            <button id="search-button">Find Recipes</button>
+        </div>
+        <div>
+            <p>Enter ingredients to find recipes that match your dietary preferences.</p>
+            
+
+        </div>
+
+        <div class="filters-section">
+            <label for="category-select">Category:</label>
+            <select id="category-select">
+                <option value="">Any Category</option>
+                <option value="Vegetarian">Vegetarian</option>
+                <option value="Vegan">Vegan</option>
+                <option value="Dessert">Dessert</option>
+                </select>
+            <input type="checkbox" id="gluten-free-checkbox">
+            <label for="gluten-free-checkbox">Gluten-Free</label>
+        </div>
+
+        <div id="recipe-results">
+            </div>
+    </main>
+
+<footer>
+    <p>&copy; 2025 Recipe Finder. All rights reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
